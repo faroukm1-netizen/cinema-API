@@ -68,8 +68,4 @@ divElements.appendChild(summary)
 divRow.appendChild(divImage)
 divRow.appendChild(divElements)
 
-
-
-
-
 }

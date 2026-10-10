@@ -12,6 +12,8 @@
    --theme-button-color:#24baef;
    --theme-text-card-color:black;
    --theme-bg-cards:#8bdcf9;
+   --theme-button-contactUs:#24baef;
+   --theme-text-button-contact:white;
 }
 
 [theme="dark"]{
@@ -20,6 +22,8 @@
        --theme-button-color:black;
        --theme-text-card-color:black;
        --theme-bg-cards:black;
+       --theme-button-contactUs:white;
+       --theme-text-button-contact:black;
 }
 
 
@@ -179,6 +183,19 @@ label{
 footer{
     height: 70px !important;
 }
+
+.button-hero-contact {
+     background-color: var(--theme-button-contactUs) !important;
+    color: var(--theme-text-button-contact) !important;
+    font-size: 20px;
+}
+
+.button-hero-search{
+      background-color: var(--theme-button-contactUs) !important;
+    color: var(--theme-text-button-contact) !important;
+    font-size: 20px;
+}
+
 
 @media (max-width: 575.98px) {
 
